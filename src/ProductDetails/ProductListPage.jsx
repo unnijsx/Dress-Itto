@@ -90,7 +90,7 @@ export default function ProductListPage() {
             <Grid item key={product.id} xs={12} sm={6} md={4} lg={3}>
               <Card
                 component={Link}
-                to={`/product/${product.id}`}
+                to={`/product`}
                 sx={{
                   textDecoration: 'none',
                   backgroundColor: '#1e1e1e',
